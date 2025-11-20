@@ -211,9 +211,9 @@ namespace Clases
         }
 
 
-        public static void MetodoDePrueba()
+        public static string MetodoDePrueba(string msj)
         {
-
+            return msj;
         }
     }
 }
