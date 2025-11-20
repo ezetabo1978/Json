@@ -25,6 +25,14 @@
         public double Precio { get => precio; set => precio = value; }
         public int Id { get => id; set => id = value; }
 
+        public double PrecioConIva
+        {
+            get
+            {
+                return precio * 0.21;
+            }
+        }
+
         public override string ToString()
         {
             return $"Marca: {marca} - Color: {color} - Patente: {patente}- Modelo: {modelo} - Precio: {precio}";
