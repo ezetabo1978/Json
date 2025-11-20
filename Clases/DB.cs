@@ -211,9 +211,9 @@ namespace Clases
         }
 
 
-        public static void MetodoDePrueba()
+        public static int MetodoDePrueba(int numero)
         {
-
+            return numero * 3;
         }
     }
 }
